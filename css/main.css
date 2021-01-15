@@ -1,5 +1,5 @@
 .bg { 
-background: url('/var/www/html/LearnProject/images/new.jpeg');
+background: url('../images/new.jpeg');
 width: 100%;
 height: 100vh;
 background-size: 100%;
