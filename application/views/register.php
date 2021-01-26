@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Logowanie</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Rejestracja</title>
+  <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
 <section class="container-fluid bg">
-	<setion class="row justify-content-center" >
-		<section class="col-12 col-sm6 col-md-3">
-			<form class="form-container">
-     			<div class="form-group">
-    <label for="exampleInputEmail1">Login</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Umiesc Login">
-    <small id="emailHelp" class="form-text text-muted">Twoj adres email zostanie zastrzeżony</small>
+  <setion class="row justify-content-center" >
+    <section class="col-12 col-sm6 col-md-3">
+      <form class="form-container">
+        <h1> Rejestracja</h1>
+          <div class="form-group">
+    <label for="title">Imię</label>
+    <input type="title" class="form-control" id="title" aria-describedby="title" placeholder="Umieść Imię">
+    <small id="title"> </small>
+  </div>
+   <label for="title">Nazwisko</label>
+    <input type="title" class="form-control" id="title" aria-describedby="title" placeholder="Umieść Nazwisko">
+    <small id="title" class="form-text text-muted"></small>
+  </div>
+ 
+  <label for="title">Login</label>
+    <input type="title" class="form-control" id="title" aria-describedby="title" placeholder="Umieść Login">
+    <small id="title" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Haslo</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo">
+    <label for="exampleInputPassword1">Hasło</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Umieść Hasło">
   </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Zapamietaj mnie</label>
+  <div class="form-group">
+    <label for="exampleInputPassword2">Powtórz hasło</label>
+    <input type="password" class="form-control" id="exampleInputPassword2" placeholder=" Powtórz hasło">
   </div>
-  <button type="submit" class="btn btn-primary btn-block">Zaloguj</button>
+  
+  <button type="submit" class="btn btn-primary btn-block">Zarejestruj się</button>
+  
 </form>
-		</section>
-	</setion>
+    </section>
+  </setion>
 </section>
+
 
 
 

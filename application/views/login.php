@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Logowanie</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/var/www/html/LearnProject/css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
@@ -12,19 +14,17 @@
 		<section class="col-12 col-sm6 col-md-3">
 			<form class="form-container">
      			<div class="form-group">
-    <label for="exampleInputEmail1">Login</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Umiesc Login">
-    <small id="emailHelp" class="form-text text-muted">Twoj adres email zostanie zastrzeżony</small>
+            <h1>Logowanie</h1>
+    <label for="title">Login</label>
+    <input type="email" class="form-control" id="title" aria-describedby="title" placeholder="Umieść Login">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Haslo</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Haslo">
+    <label for="exampleInputPassword1">Hasło</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Hasło">
   </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Zapamietaj mnie</label>
-  </div>
+ 
   <button type="submit" class="btn btn-primary btn-block">Zaloguj</button>
+  <button type="submit" class="btn btn-primary btn-block">Zapomniałem hasło</button>
 </form>
 		</section>
 	</setion>
