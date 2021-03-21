@@ -36,7 +36,14 @@
     <label for="exampleInputPassword2">Powtórz hasło</label>
     <input type="password" class="form-control" id="exampleInputPassword2" placeholder=" Powtórz hasło">
   </div>
-  
+  <label for="title">Email</label>
+    <input type="title" class="form-control" id="title" aria-describedby="title" placeholder="Umieść Email">
+    <small id="title" class="form-text text-muted"></small>
+  </div>
+   <label for="title">Data urodzenia</label>
+    <input type="title" class="form-control" id="title" aria-describedby="title" placeholder="dd-mm-rr">
+    <small id="title" class="form-text text-muted"></small>
+  </div>
   <button type="submit" class="btn btn-primary btn-block">Zarejestruj się</button>
   
 </form>
