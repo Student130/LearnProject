@@ -6,34 +6,50 @@
 	 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	 <link rel="stylesheet" type="text/css" href="css/main.css">
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 
 	
 </head>
 <body>
 
 
-<div class="container-fluid pp">
-
-	<div class="row ">
-		<div class="col-md-6">
-			<h1>Dopasuj Podroz</h1>
-			<p> wygodny sposob dla siebie </p>
-
-			
-
-
-		</div>
-		<div class="col-md-6">
-			<button class="btn fad"><i class="fa fa-bars"></i></button>
-
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid pp">
-
+<div class="container-fluid ">
 	<div class="row">
-		<h2> Zarezerwuj wyjazd </h2>
+	  <div class="col-md-4"> <img src="../images/logo1.jpg" class="img-fluid" alt="Responsive image"></div>
+	  <div class="col-md-4"><h1> Wygodny sposób podróżowania </h1></div>
+	  <div class="col-md-4">
+
+	  	<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-user"></i>
+  </button>
+   <ul class="dropdown-content">
+  	 <li><a href="#">Ustawienia konta</a></li>
+    <li><a href="#">Zmiana hasła</a></li>
+     <li><a href="#">Wyloguj się </a></li>
+  </ul> </div>
+  <div class="dropdown">
+   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-bars"></i>
+  </button>
+  <ul class="dropdown-content">
+  	 <li><a href="#">Dodaj przejazd</a></li>
+    <li><a href="#">Profil Kierowcy</a></li>
+    <li><a href="#">Moje podróże</a></li>
+  </ul>
+</div> 
+
+
+
+	
+			
+</div>
+</div>
+		<br> 
+<div class="container-fluid bx ">
+
+	
+		<h2> Zarezerwuj wyjazd </h2>  <br>
+		<div class="row">
 		 <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Wyjazd z" name="search">
@@ -46,65 +62,70 @@
 	
 </div>
 </div>
-<div class="container-fluid pp">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card">
-						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg" />
-						<div class="card-block">
-							<h5 class="card-title">
-								Myslowice 
-
-							</h5>
-							<p class="card-text">
-								Jade do Myslowic 
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="https://www.layoutit.com/img/city-q-c-600-200-1.jpg" />
-						<div class="card-block">
-							<h5 class="card-title">
-								Rzeszow
-							</h5>
-							<p class="card-text">
-							Jade do Rzeszowa
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="https://www.layoutit.com/img/sports-q-c-600-200-1.jpg" />
-						<div class="card-block">
-							<h5 class="card-title">
-								Jaroslaw
-							</h5>
-							<p class="card-text">
-								Jade do Jaroslawia
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<br>
+<h2> Wyszukane frazy</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <div class="custom-column">
+        <div class="custom-column-header">Bartis</div>
+        <div class="custom-column-content">
+          <ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-arrow-left"></i> Z </li>
+            <li class="list-group-item"> <i class="fa fa-arrow-right"></i> Do</li>
+            <li class="list-group-item"> <i class="far fa-calendar"></i> Data </li>
+            <li class="list-group-item"><i class="far fa-clock"></i> Godzina </li>
+            <li class="list-group-item"><i class="fas fa-coins"></i> Koszt</li>
+          </ul>
+        </div>
+        <div class="custom-column-footer"><button class="btn btn-primary btn-lg">Zarezerwuj</button></div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="custom-column">        
+        <div class="custom-column-header">Tomi132</div>
+        <div class="custom-column-content">
+          <ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-arrow-left"></i> Z </li>
+            <li class="list-group-item"> <i class="fa fa-arrow-right"></i> Do</li>
+            <li class="list-group-item"> <i class="far fa-calendar"></i> Data </li>
+            <li class="list-group-item"><i class="far fa-clock"></i> Godzina </li>
+            <li class="list-group-item"><i class="fas fa-coins"></i> Koszt</li>
+          </ul>
+        </div>
+        <div class="custom-column-footer"><button class="btn btn-primary btn-lg">Zarezerwuj</button></div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="custom-column">
+        <div class="custom-column-header">Pourette521</div>
+        <div class="custom-column-content">
+         <ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-arrow-left"></i> Z </li>
+            <li class="list-group-item"> <i class="fa fa-arrow-right"></i> Do</li>
+            <li class="list-group-item"> <i class="far fa-calendar"></i> Data </li>
+            <li class="list-group-item"><i class="far fa-clock"></i> Godzina </li>
+            <li class="list-group-item"><i class="fas fa-coins"></i> Koszt</li>
+          </ul>
+        </div>
+        <div class="custom-column-footer"><button class="btn btn-primary btn-lg">Zarezerwuj</button></div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
+
 </body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
 </html>
 		
