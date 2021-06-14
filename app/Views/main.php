@@ -8,20 +8,20 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <title>Dopasuj Podróż</title>
-    <link href="/vendor/css/font-face.css" rel="stylesheet">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
-    <link href="vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
-    <link href="vendor/css/theme.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/css/font-face.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
+    <link href="<?= base_url(); ?>/vendor/css/theme.css" rel="stylesheet" media="all">
 
 </head>
 
@@ -214,28 +214,28 @@
         </div>
 
     </div>
-    <script src="vendor/jquery-3.2.1.min.js"></script>
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script> 
-    <script src="vendor/slick/slick.min.js">
+    <script src="<?= base_url(); ?>/vendor/jquery-3.2.1.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/slick/slick.min.js">
     </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="<?= base_url(); ?>/vendor/wow/wow.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/animsition/animsition.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
+    <script src="<?= base_url(); ?>/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="<?= base_url(); ?>/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="<?= base_url(); ?>/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/select2/select2.min.js">
     </script>
-    <script src="vendor/vector-map/jquery.vmap.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.min.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.sampledata.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.world.js"></script>
-    <script src="vendor/js/main.js"></script>
+    <script src="<?= base_url(); ?>/vendor/vector-map/jquery.vmap.js"></script>
+    <script src="<?= base_url(); ?>/vendor/vector-map/jquery.vmap.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/vector-map/jquery.vmap.sampledata.js"></script>
+    <script src="<?= base_url(); ?>/vendor/vector-map/jquery.vmap.world.js"></script>
+    <script src="<?= base_url(); ?>/vendor/js/main.js"></script>
 
 </body>
 

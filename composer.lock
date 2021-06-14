@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "codeigniter4/framework",
-            "version": "v4.1.2",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "0bf61820417a3e4a6e7f6c725c5cccf285a1b7c4"
+                "reference": "3416a0b4ca5c824f639beaf43f9e5b7e87511c5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/0bf61820417a3e4a6e7f6c725c5cccf285a1b7c4",
-                "reference": "0bf61820417a3e4a6e7f6c725c5cccf285a1b7c4",
+                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/3416a0b4ca5c824f639beaf43f9e5b7e87511c5c",
+                "reference": "3416a0b4ca5c824f639beaf43f9e5b7e87511c5c",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2021-05-18T02:07:31+00:00"
+            "time": "2021-06-05T23:58:18+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -1178,16 +1178,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.4",
+            "version": "9.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c73c6737305e779771147af66c96ca6a7ed8a741"
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c73c6737305e779771147af66c96ca6a7ed8a741",
-                "reference": "c73c6737305e779771147af66c96ca6a7ed8a741",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89ff45ea9d70e35522fb6654a2ebc221158de276",
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276",
                 "shasum": ""
             },
             "require": {
@@ -1217,7 +1217,7 @@
                 "sebastian/global-state": "^5.0.1",
                 "sebastian/object-enumerator": "^4.0.3",
                 "sebastian/resource-operations": "^3.0.3",
-                "sebastian/type": "^2.3",
+                "sebastian/type": "^2.3.2",
                 "sebastian/version": "^3.0.2"
             },
             "require-dev": {
@@ -1273,7 +1273,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-23T07:16:29+00:00"
+            "time": "2021-06-05T04:49:07+00:00"
         },
         {
             "name": "psr/container",
@@ -1793,16 +1793,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "5.0.2",
+            "version": "5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "a90ccbddffa067b51f574dea6eb25d5680839455"
+                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/a90ccbddffa067b51f574dea6eb25d5680839455",
-                "reference": "a90ccbddffa067b51f574dea6eb25d5680839455",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/23bd5951f7ff26f12d4e3242864df3e08dec4e49",
+                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49",
                 "shasum": ""
             },
             "require": {
@@ -1849,7 +1849,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T15:55:19+00:00"
+            "time": "2021-06-11T13:31:12+00:00"
         },
         {
             "name": "sebastian/lines-of-code",

@@ -35,6 +35,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'MainController::index');
 $routes->get('/login','UserController::index');
 $routes->get('/password','ForgotPassowrdController::index');
+$routes->get('/admin/main','MainAdminController::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
